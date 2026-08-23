@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Tienda y contenido B2C/B2B
+Allow: /tienda
+Allow: /contacto
+
+Sitemap: https://www.agronovafoods.com/sitemap.xml

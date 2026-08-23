@@ -1,0 +1,90 @@
+export const storeCategories = ["Todos", "Harinas", "Snacks", "Ingredientes", "Kits"];
+
+// Productos exactos del modelo de la imagen
+export const storeProducts = [
+  {
+    id: "harina-yuca-500",
+    name: "Harina de Yuca",
+    subname: "500 g",
+    category: "Harinas",
+    price: 12500,
+    weight: "500 g",
+    image: "/mario fotos/FOTOS EMPAQUE/Harina de yuca 500g.jpeg",
+    type: "retail",
+    desc: "500g · Doypack resellable · 100% natural",
+  },
+  {
+    id: "harina-yuca-1000",
+    name: "Harina de Yuca",
+    subname: "1 kg",
+    category: "Harinas",
+    price: 21500,
+    weight: "1 kg",
+    image: "/mario fotos/FOTOS EMPAQUE/Harina de yuca 1000g.jpeg",
+    type: "retail",
+    desc: "1 kg · Familiar premium · Sin gluten",
+  },
+  {
+    id: "harina-platano-500",
+    name: "Harina de Plátano",
+    subname: "500 g",
+    category: "Harinas",
+    price: 12500,
+    weight: "500 g",
+    image: "/mario fotos/FOTOS EMPAQUE/Harina de platano 500g.jpeg",
+    type: "retail",
+    desc: "500g · Rica en potasio · Almidón resistente",
+  },
+  {
+    id: "harina-platano-1000",
+    name: "Harina de Plátano",
+    subname: "1 kg",
+    category: "Harinas",
+    price: 22500,
+    weight: "1 kg",
+    image: "/mario fotos/FOTOS EMPAQUE/Harina de platano 1000g.jpeg",
+    type: "retail",
+    desc: "1 kg · Verde seleccionado · Molienda fina",
+  },
+  {
+    id: "harina-yuca-25kg",
+    name: "Harina de Yuca",
+    subname: "25 kg",
+    subtitle: "Grado industrial",
+    category: "Harinas",
+    price: null,
+    weight: "25 kg",
+    image: "/mario fotos/FOTOS EMPAQUE/harina de yuca 25 kg.jpeg",
+    type: "industrial",
+    desc: "Saco industrial 25 kg · Precio según volumen",
+  },
+  {
+    id: "harina-platano-25kg",
+    name: "Harina de Plátano",
+    subname: "25 kg",
+    subtitle: "Grado industrial",
+    category: "Harinas",
+    price: null,
+    weight: "25 kg",
+    image: "/mario fotos/FOTOS EMPAQUE/harina de Platano 25 kg.jpeg",
+    type: "industrial",
+    desc: "Saco industrial 25 kg · Precio según volumen",
+  },
+];
+
+export const aplicaciones = [
+  { icon: "arepas", label: "Arepas y", sub: "pan cakes" },
+  { icon: "panificacion", label: "Panificación", sub: "" },
+  { icon: "galletas", label: "Galletas y", sub: "tortas" },
+  { icon: "sopas", label: "Sopas y", sub: "mezclas" },
+  { icon: "singluten", label: "Productos", sub: "sin gluten" },
+  { icon: "industrial", label: "Uso", sub: "industrial" },
+];
+
+export const porQueElegir = [
+  { title: "Origen natural", desc: "Ingredientes seleccionados de origen natural.", icon: "leaf" },
+  { title: "Calidad y seguridad", desc: "Procesos certificados que garantizan inocuidad.", icon: "shield" },
+  { title: "Producción sostenible", desc: "Aprovechamos el sol y cuidamos el entorno.", icon: "sun" },
+  { title: "Experiencia", desc: "Conocemos la industria y tus necesidades.", icon: "award" },
+  { title: "Atención directa", desc: "Asesoría cercana y respuestas rápidas.", icon: "headset" },
+];
