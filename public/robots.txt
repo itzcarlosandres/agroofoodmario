@@ -5,4 +5,4 @@ Allow: /
 Allow: /tienda
 Allow: /contacto
 
-Sitemap: https://www.agronovafoods.com/sitemap.xml
+Sitemap: https://agronovafoods.com/sitemap.xml

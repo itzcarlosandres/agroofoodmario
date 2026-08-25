@@ -17,7 +17,7 @@ export default function TiendaProducto() {
 
   useEffect(() => {
     if (!product) return;
-    const base = "https://www.agronovafoods.com";
+    const base = "https://agronovafoods.com";
     const url = `${base}/tienda/${product.id}`;
     const title = `${product.name} ${product.subname} | Harina 100% Natural Sin Gluten | AGRO NOVA FOODS`;
     const desc = `${product.name} ${product.subname} ${product.subtitle || ""} - ${product.desc} Compra directo de planta en Arjona, Bolívar. Envíos a todo Colombia. ${product.price ? `Precio ${formatPrice(product.price)}.` : "Cotiza precio según volumen."} Agro Nova Foods.`;

@@ -35,7 +35,7 @@ export default function Tienda() {
     // canonical
     let link = document.querySelector('link[rel="canonical"]');
     if (!link) { link = document.createElement("link"); link.rel = "canonical"; document.head.appendChild(link); }
-    link.href = "https://www.agronovafoods.com/tienda";
+    link.href = "https://agronovafoods.com/tienda";
     // OG
     const setOG = (prop, content) => {
       let el = document.querySelector(`meta[property="${prop}"]`);
@@ -44,8 +44,8 @@ export default function Tienda() {
     };
     setOG("og:title", title);
     setOG("og:description", desc);
-    setOG("og:url", "https://www.agronovafoods.com/tienda");
-    setOG("og:image", "https://www.agronovafoods.com/portada/portada.jpg");
+    setOG("og:url", "https://agronovafoods.com/tienda");
+    setOG("og:image", "https://agronovafoods.com/portada/portada.jpg");
     setOG("og:type", "website");
     // JSON-LD Store
     let ld = document.getElementById("ld-tienda");
@@ -54,9 +54,9 @@ export default function Tienda() {
       "@context": "https://schema.org",
       "@type": "Store",
       name: "Tienda AGRO NOVA FOODS",
-      url: "https://www.agronovafoods.com/tienda",
+      url: "https://agronovafoods.com/tienda",
       description: desc,
-      image: "https://www.agronovafoods.com/portada/portada.jpg",
+      image: "https://agronovafoods.com/portada/portada.jpg",
       address: { "@type": "PostalAddress", addressLocality: "Arjona", addressRegion: "Bolívar", addressCountry: "CO" },
       telephone: "+573014641164",
       priceRange: "$$",
