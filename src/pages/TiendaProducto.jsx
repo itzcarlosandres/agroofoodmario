@@ -6,7 +6,7 @@ import { storeProducts } from "../data/storeData";
 
 function formatPrice(n) {
   if (n == null) return "Precio según volumen";
-  return new Intl.NumberFormat("es-CO", { style: "currency", currency: "COP", maximumFractionDigits: 0 }).format(n);
+  return new Intl.NumberFormat("es-CO", { style: "currency", currency: "COP", currencyDisplay: "code", maximumFractionDigits: 0 }).format(n);
 }
 
 export default function TiendaProducto() {
