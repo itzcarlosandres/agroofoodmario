@@ -18,7 +18,7 @@ export const storeProducts = [
     name: "Harina de Plátano",
     subname: "500 g",
     category: "Harinas",
-    price: 12500,
+    price: 14700,
     weight: "500 g",
     image: "/mario fotos/FOTOS EMPAQUE/Harina de platano 500g.jpeg",
     type: "retail",
